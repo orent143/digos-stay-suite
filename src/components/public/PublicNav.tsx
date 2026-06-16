@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { to: "/", label: "Home" },
+  { to: "/", label: "About Us" },
   { to: "/rooms", label: "Rooms" },
   { to: "/inquiry", label: "Contact" },
 ];
@@ -70,7 +71,7 @@ export function PublicNav() {
               </NavLink>
             ))}
             <Button asChild size="sm" className="mt-2">
-              <Link to="/rooms" onClick={() => setOpen(false)} className="font-light">Browse Rooms</Link>
+              <Link to="/rooms" onClick={() => setOpen(false)} className="font-light">Book your room</Link>
             </Button>
           </div>
         </div>
