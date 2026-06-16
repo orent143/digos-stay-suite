@@ -8,7 +8,6 @@ const links = [
   { to: "/", label: "Home" },
   { to: "/rooms", label: "Rooms" },
   { to: "/inquiry", label: "Contact" },
-  { to: "/admin", label: "Owner Portal" },
 ];
 
 export function PublicNav() {
